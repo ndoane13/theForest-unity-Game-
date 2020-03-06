@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3800855284231777684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3800855284231777685}
+  - component: {fileID: 3800855284231777690}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3800855284231777685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3800855284231777684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3800855284231777690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3800855284231777684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f1b923d0af12dd41ad03542e268b9a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: c4ffe281a8c02ec4a88d8c6dd7e3e5bc, type: 3}
+    audioMixer: {fileID: 24300002, guid: ba64a0ef7fecfa3408999192c9802c4c, type: 2}
+    name: SkeleDeath
+    volume: 0.759
+    pitch: 2.47
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 95f2487bde5eb4649af21b302762b95b, type: 3}
+    audioMixer: {fileID: 24300002, guid: ba64a0ef7fecfa3408999192c9802c4c, type: 2}
+    name: Sword1
+    volume: 0.541
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: ef846b74090dea44995f9fbb34e527c8, type: 3}
+    audioMixer: {fileID: 24300002, guid: ba64a0ef7fecfa3408999192c9802c4c, type: 2}
+    name: Sword2
+    volume: 0.594
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: d271fb79e1324374293af52f2492cc75, type: 3}
+    audioMixer: {fileID: 24300002, guid: ba64a0ef7fecfa3408999192c9802c4c, type: 2}
+    name: SkeleImpact
+    volume: 0.594
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: fb82863c68981a14db93bc8add8c3f62, type: 3}
+    audioMixer: {fileID: 24300002, guid: ba64a0ef7fecfa3408999192c9802c4c, type: 2}
+    name: Run
+    volume: 0.594
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - clip: {fileID: 8300000, guid: 7d9af089d68f84945aabffde78a3d4ea, type: 3}
+    audioMixer: {fileID: 24300002, guid: ba64a0ef7fecfa3408999192c9802c4c, type: 2}
+    name: Ambience
+    volume: 0.35
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - clip: {fileID: 8300000, guid: 72d34a44f869367469cd91bcc06efd8a, type: 3}
+    audioMixer: {fileID: 24300002, guid: ba64a0ef7fecfa3408999192c9802c4c, type: 2}
+    name: HealthPickUp
+    volume: 0.506
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: e8127283c8cbbee44b2d286a1c3e5941, type: 3}
+    audioMixer: {fileID: 24300002, guid: ba64a0ef7fecfa3408999192c9802c4c, type: 2}
+    name: PlayerGrunt
+    volume: 0.506
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 05d59a9c316481d479d58ca7fd3cbe52, type: 3}
+    audioMixer: {fileID: 24300002, guid: ba64a0ef7fecfa3408999192c9802c4c, type: 2}
+    name: PlayerHurt
+    volume: 0.506
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  mainMixer: {fileID: 24300002, guid: ba64a0ef7fecfa3408999192c9802c4c, type: 2}
